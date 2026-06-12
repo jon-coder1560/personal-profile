@@ -52,7 +52,7 @@ a:hover {
 }
 
 li#home {
-    margin-left: 0;
+    margin-left: 10px;
 }
 
 section#intro {
@@ -128,4 +128,17 @@ div#education {
     border-radius: 10px;
     margin: 15px auto;
     padding: 10%;
+}
+
+
+footer {
+    background: #1A1D24;
+    border-top: 1px solid #2A2F38;
+    text-align: center;
+}
+
+footer p {
+    padding: 0 0 10px 0;
+    margin-bottom: 0;
+    font-style: italic;
 }
