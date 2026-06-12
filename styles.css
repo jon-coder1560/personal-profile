@@ -48,18 +48,20 @@ li {
 
 a:hover {
     color: #816e46;
-    transition: color 0.35s;
+    transition: color 0.35s ease-in-out;
 }
 
-li:first-of-type {
+li#home {
     margin-left: 0;
 }
 
 section#intro {
-    margin-top: 10px;
+    margin: 10px auto;
     background: #1A1D24;
     border: 1px solid #2A2F38;
     display: flex;
+    width: 85%;
+    border-radius: 10px;
 }
 
 div#profile-pic {
@@ -95,6 +97,35 @@ p {
     color: #B7BDC7;
 }
 
+section#main-body {
+    margin: 0 auto;
+    width: 85%;
+}
 
+h2 {
+    color: #F5F1EA;
+    margin-bottom: 0;
+}
 
+/* p#p-about-me {
+    
+} */
 
+div#exp-edu {
+    display: flex;
+    /* margin: 15px auto; */
+}
+
+div#experience {
+    border: 1px solid #2A2F38;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 10%;
+}
+
+div#education {
+    border: 1px solid #2A2F38;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 10%;
+}
