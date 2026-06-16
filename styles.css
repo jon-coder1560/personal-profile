@@ -107,9 +107,14 @@ h2 {
     margin-bottom: 0;
 }
 
-/* p#p-about-me {
-    
-} */
+p.p-about-me {
+    line-height: 23px;
+}
+
+span.about-me {
+    font-style: italic;
+    font-weight: bold;
+}
 
 div#exp-edu {
     display: flex;
@@ -120,16 +125,19 @@ div#experience {
     border: 1px solid #2A2F38;
     border-radius: 10px;
     margin: 15px auto;
-    padding: 10%;
+    padding: 5% 7%;
 }
 
 div#education {
     border: 1px solid #2A2F38;
     border-radius: 10px;
     margin: 15px auto;
-    padding: 10%;
+    padding: 5%;
 }
 
+h3.title {
+    color: #6E786F;
+}
 
 footer {
     background: #1A1D24;
