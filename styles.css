@@ -64,13 +64,13 @@ section#intro {
     border-radius: 10px;
 }
 
-div#profile-pic {
+/* div#profile-pic {
     margin: 15px 0 30px 15px;
     background: gray;
     width: 100px;
     border: 1px solid #2A2F38;
     border-radius: 50%;
-}
+} */
 
 img#photo {
     height: 200px;
