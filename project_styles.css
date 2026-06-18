@@ -1,0 +1,61 @@
+/* | Purpose              | Color         | Hex       |
+| -------------------- | ------------- | --------- |
+| Background           | Deep Charcoal | `#0F1115` |
+| Secondary Background | Dark Gray     | `#1A1D24` |
+| Primary Text         | Soft Ivory    | `#F5F1EA` |
+| Secondary Text       | Light Gray    | `#B7BDC7` |
+| Accent Gold          | Warm Gold     | `#D4B06A` |
+| Accent Green         | Slate Green   | `#6E786F` |
+| Borders              | Dark Slate    | `#2A2F38` | */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #0F1115;
+}
+
+header {
+    display: flex;
+    /* margin: auto 10px; */
+}
+
+img {
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #F5F1EA;
+    text-align: center;
+    margin: auto 10px;
+}
+
+h2 {
+    color: #B7BDC7;
+}
+
+div#projects {
+    display: flex;
+}
+
+div#gorilla-game {
+    background: #1A1D24;
+    border: 1px solid #2A2F38;
+}
+
+div#character-creator {
+    background: #1A1D24;
+    border: 1px solid #2A2F38;
+}
+
+div#janos-academy {
+    background: #1A1D24;
+    border: 1px solid #2A2F38;
+}
+
+div#random {
+    background: #1A1D24;
+    border: 1px solid #2A2F38;
+}
